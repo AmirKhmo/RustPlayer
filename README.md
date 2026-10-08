@@ -8,16 +8,16 @@
 
 *A fast, PotPlayer-style media player for Windows with a native Persian (RTL) UI, built with Rust, egui and libmpv.*
 
-[![Build](https://github.com/YOUR_USERNAME/RustPlayer/actions/workflows/windows.yml/badge.svg)](https://github.com/YOUR_USERNAME/RustPlayer/actions/workflows/windows.yml)
-[![Release](https://img.shields.io/github/v/release/YOUR_USERNAME/RustPlayer?label=دانلود&color=orange)](https://github.com/YOUR_USERNAME/RustPlayer/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/YOUR_USERNAME/RustPlayer/total?color=green)](https://github.com/YOUR_USERNAME/RustPlayer/releases)
+[![Build](https://github.com/AmirKhmo/RustPlayer/actions/workflows/windows.yml/badge.svg)](https://github.com/AmirKhmo/RustPlayer/actions/workflows/windows.yml)
+[![Release](https://img.shields.io/github/v/release/AmirKhmo/RustPlayer?label=دانلود&color=orange)](https://github.com/AmirKhmo/RustPlayer/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/AmirKhmo/RustPlayer/total?color=green)](https://github.com/AmirKhmo/RustPlayer/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20x64-0078D6)
 ![Rust](https://img.shields.io/badge/Rust-stable-B7410E?logo=rust)
 
 [**⬇️ دانلود آخرین نسخه**](https://github.com/AmirKhmo/RustPlayer/releases/latest)
 
-<img src="docs/screenshot.png" width="800" alt="RustPlayer screenshot">
+<img src="docs/screenshot.jpg" width="800" alt="RustPlayer screenshot">
 
 </div>
 
