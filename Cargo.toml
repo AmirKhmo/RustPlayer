@@ -1,0 +1,27 @@
+[package]
+name = "rustplayer"
+version = "0.3.1"
+edition = "2021"
+description = "PotPlayer-style media player with a Persian RTL interface"
+license = "MIT"
+repository = "https://github.com/AmirKhmo/RustPlayer"
+readme = "README.md"
+
+[dependencies]
+eframe = "0.27"          # egui + glow (OpenGL) backend
+ab_glyph = "0.2"         # font coverage check
+libmpv2 = "4"            # mpv core + render API
+libmpv2-sys = "4"
+rfd = "0.14"             # native file dialogs
+dirs = "5"
+anyhow = "1"
+encoding_rs = "0.8"      # Windows-1256 subtitles
+
+[target.'cfg(windows)'.build-dependencies]
+winresource = "0.1"      # exe icon
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+strip = true
